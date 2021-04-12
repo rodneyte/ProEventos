@@ -8,11 +8,11 @@ using ProEventos.Persistence.Contratos;
 namespace ProEventos.Persistence
 {
     
-    public class GeralPersit : IGeralPersist
+    public class GeralPersist : IGeralPersist
     {
         private readonly ProEventosContext _context;
         
-        public GeralPersit(ProEventosContext context)
+        public GeralPersist(ProEventosContext context)
         {
             this._context = context;
 
