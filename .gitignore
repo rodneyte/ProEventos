@@ -483,4 +483,5 @@ Thumbs.db
 # excluindo DB
 *.db
 *.db-schm
+*.db-shm
 *.db-wal
